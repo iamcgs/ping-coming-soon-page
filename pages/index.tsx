@@ -31,7 +31,7 @@ export default function Home() {
       setSuccesMsg(true);
       console.log('submit');
     } else {
-      return;
+      setError(true);
     }
   };
 
